@@ -12,7 +12,7 @@
         android:id="@+id/txt_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SimpliRemind"
+        android:text="@string/app_name"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,7 +21,7 @@
         android:layout_marginTop="20dp"/>
 
     <View
-        android:id="@+id/horizontal_line"
+        android:id="@+id/horizontal_line"   
         android:layout_width="match_parent"
         android:layout_height="2dp"
         android:background="@color/black"
@@ -43,7 +43,7 @@
         android:id="@+id/btn_add_task"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Add New Task"
+        android:text="@string/add_new_task"
         android:layout_marginTop="70dp"
         android:backgroundTint="@color/blue"
         app:layout_constraintTop_toBottomOf="@id/img_header"

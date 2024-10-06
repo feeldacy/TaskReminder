@@ -5,13 +5,14 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ThirdActivity">
+    tools:context=".ThirdActivity"
+    android:background="@color/white">
 
     <TextView
         android:id="@+id/txt_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SimpliRemind"
+        android:text="@string/app_name"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,7 +39,8 @@
         app:layout_constraintBottom_toTopOf="@id/btn_add_task"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/horizontal_line">
+        app:layout_constraintTop_toBottomOf="@id/horizontal_line"
+        android:elevation="20dp">
 
         <TextView
             android:id="@+id/txt_infor_title"
@@ -77,7 +79,7 @@
         android:id="@+id/btn_add_task"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="Add Task"
+        android:text="@string/add_new_task"
         android:backgroundTint="@color/blue"
         app:layout_constraintTop_toBottomOf="@id/reminder_box"
         app:layout_constraintBottom_toBottomOf="parent"
